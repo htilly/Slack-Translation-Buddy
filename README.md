@@ -1,4 +1,4 @@
-# Slack-Tranlation-Buddy
+# Slack-Translation-Buddy
 
 
 A #Slack bot that will make sure all people in a channel talk english. If they do not, the bot will translate the sentence for you.
