@@ -114,3 +114,10 @@ slack.on(RTM_EVENTS.MESSAGE, (message) => {
 
 // Start the login process
 slack.start();
+
+// Playing with Travis.
+// Just something that will return a value
+
+module.exports = function(number, locale) {
+    return number.toLocaleString(locale);
+};
