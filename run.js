@@ -3,3 +3,10 @@ require("babel-register")({
 });
 
 require('./main.js');
+
+// Playing with Travis.
+// Just something that will return a value
+
+module.exports = function(number, locale) {
+    return number.toLocaleString(locale);
+};
