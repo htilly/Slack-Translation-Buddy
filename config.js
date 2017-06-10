@@ -1,5 +1,4 @@
 export const config = {
-    team: "",
     user: "",
     token: ""
 }
