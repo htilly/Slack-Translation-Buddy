@@ -8,13 +8,15 @@
     "test": "mocha --reporter spec",
     "cover": "npm run pretest; node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- --opts test/mocha.opts test/* -R spec"
   },
-    "devDependencies": {
+  
+  "devDependencies": {
     "chai": "^3.5.0",
     "coveralls": "^2.11.14",
     "istanbul": "^0.4.5",
     "mocha": "^2.3.4",
     "standard": "5.4.1"
   },
+  
   "dependencies": {
     "@slack/client": "^3.9.0",
     "babel-core": "^6.24.1",
@@ -25,9 +27,7 @@
     "express": "^4.15.2",
     "google-translate-api": "https://github.com/arthurlacoste/google-translate-api/archive/master.tar.gz"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/htilly/Slack-Translation-Buddy.git"
