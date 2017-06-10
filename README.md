@@ -1,7 +1,3 @@
-[![Build Status](https://travis-ci.org/htilly/Slack-Translation-Buddy.svg?branch=master)](https://travis-ci.org/htilly/Slack-Translation-Buddy)
-  
-    
-
 # Slack-Translation-Buddy
 
 
