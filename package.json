@@ -1,8 +1,8 @@
 {
-  "name": "slacksupportbot",
+  "name": "SlackTranslationBuddy",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "run.js",
   "dependencies": {
     "@slack/client": "^3.9.0",
     "babel-core": "^6.24.1",
@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/szh123/slacksupportbot.git"
+    "url": "git+https://github.com/htilly/Slack-Translation-Buddy.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/szh123/slacksupportbot/issues"
+    "url": "https://github.com/htilly/Slack-Translation-Buddy/issues"
   },
-  "homepage": "https://github.com/szh123/slacksupportbot#readme"
+  "homepage": "https://github.com/htilly/Slack-Translation-Buddy/wiki"
 }
