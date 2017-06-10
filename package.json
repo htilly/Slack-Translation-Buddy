@@ -4,7 +4,7 @@
   "description": "Translate anything written in non English",
   "main": "run.js",
   "scripts": {
-    "pretest": "if [ ! -f 'config.json' ]; then cp config.json.example config.json; fi",
+    "pretest": "if [ ! -f 'config.js' ]; then cp config.js.example config.js; fi",
     "test": "mocha --reporter spec",
     "cover": "npm run pretest; node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- --opts test/mocha.opts test/* -R spec"
   },
@@ -31,6 +31,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/htilly/Slack-Translation-Buddy.git"
+  },
+    "engines": {
+    "node": ">=6.0.0"
   },
   "author": "",
   "license": "ISC",
