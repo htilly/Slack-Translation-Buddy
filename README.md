@@ -1,5 +1,6 @@
-# Slack-Translation-Buddy
+# Slack-Translation-Buddy. 
 
+Pull Request are more than welcome!!  
 
 A #Slack bot that will make sure all people in a channel talk english. If they do not, the bot will translate the sentence for you.
 
