@@ -101,7 +101,7 @@ slack.on(RTM_EVENTS.MESSAGE, (message) => {
         let msg = message.text.toLowerCase();
         
         //Return false if message startswith "<" (This is probably a automated message)
-        if (msg.startsWith("&lt;")){
+        if ((msg.startsWith("&lt;")) || (msg.startsWith("<"))){
           return;
         }
         
