@@ -99,7 +99,12 @@ slack.on(RTM_EVENTS.MESSAGE, (message) => {
 
     if (message.text) {
         let msg = message.text.toLowerCase();
-
+        
+        //Return false if message startswith "<" (This is probably a automated message)
+        if ((msg.startsWith("&lt;")) || (msg.startsWith("<"))){
+          return;
+        }
+        
         translate.autoToEnglish(msg)
             .then((result) => {
                 if (result.lang !== "en") {
