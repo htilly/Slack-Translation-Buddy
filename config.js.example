@@ -1,6 +1,8 @@
 export const config = {
     user: "",
-    token: ""
+    token: "",
+    messagesuffix: "",
+    thread: true
 }
 
 export default config;
