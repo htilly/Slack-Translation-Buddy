@@ -107,7 +107,7 @@ slack.on(RTM_EVENTS.MESSAGE, (message) => {
 
         translate.autoToEnglish(msg)
             .then((result) => {
-              if (result.lang !== "en") {
+              if ((config.ignorelanguages == false) || (!config.ignorelanguages.includes(result.lang))) {
                 //Create payload
                 var payload = {
                   "id": 1,
