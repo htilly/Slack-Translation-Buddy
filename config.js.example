@@ -2,7 +2,8 @@ export const config = {
     user: "",
     token: "",
     messagesuffix: "",
-    thread: true
+    thread: true,
+    ignorelanguages: ['en']
 }
 
 export default config;
