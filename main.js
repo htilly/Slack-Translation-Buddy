@@ -113,9 +113,9 @@ slack.on(RTM_EVENTS.MESSAGE, (message) => {
                   "id": 1,
                   "type": "message",
                   "channel": channel.id,
-                  "text": user.real_name + ': ' + result.text + config.messagesuffix
+                  "text": result.text + config.messagesuffix
                 }
-
+                //user.real_name + ': ' + 
                 //Check if it's a thread
                 if (message.thread_ts != undefined){
                   //It's a thread. Include thread ts
