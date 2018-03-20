@@ -20,6 +20,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.24.1",
     "body-parser": "^1.17.1",
+    "cld": "^2.4.8",
     "express": "^4.15.2",
     "google-translate-api": "https://github.com/arthurlacoste/google-translate-api/archive/master.tar.gz"
   },
