@@ -99,6 +99,9 @@ slack.on(RTM_EVENTS.MESSAGE, (message) => {
 
     if (message.text) {
         var msg = message.text.toLowerCase();
+        
+        //Clean message from emojis
+        msg = msg.replace(/:.*:/, '');
 
         //Return false if message startswith "<" (This is probably a automated message)
         if ((msg.startsWith("&lt;")) || (msg.startsWith("<"))){
