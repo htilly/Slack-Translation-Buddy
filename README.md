@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/htilly/Slack-Translation-Buddy.svg?branch=master)](https://travis-ci.org/htilly/Slack-Translation-Buddy)  
+ [![Known Vulnerabilities](https://snyk.io/test/github/htilly/Slack-Translation-Buddy/badge.svg)](https://snyk.io/test/github/htilly/Slack-Translation-Buddy) 
+
 
 
 
