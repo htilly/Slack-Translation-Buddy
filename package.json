@@ -5,7 +5,9 @@
   "main": "run.js",
   "scripts": {
     "pretest": "if [ ! -f 'config.js' ]; then cp config.js.example config.js; fi",
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -22,7 +24,8 @@
     "body-parser": "^1.17.1",
     "cld": "^2.4.8",
     "express": "^4.15.2",
-    "google-translate-api": "https://github.com/vitalets/google-translate-api/archive/master.tar.gz"
+    "google-translate-api": "https://github.com/vitalets/google-translate-api/archive/master.tar.gz",
+    "snyk": "^1.189.0"
   },
   "repository": {
     "type": "git",
@@ -36,5 +39,6 @@
   "bugs": {
     "url": "https://github.com/htilly/Slack-Translation-Buddy/issues"
   },
-  "homepage": "https://github.com/htilly/Slack-Translation-Buddy/wiki"
+  "homepage": "https://github.com/htilly/Slack-Translation-Buddy/wiki",
+  "snyk": true
 }
